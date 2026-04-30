@@ -1,0 +1,1 @@
+from .lit_model import Lit_EquiformerV2

@@ -1,0 +1,17 @@
+data_params:
+  root: aspirin_fixed
+  max_radius: 5.
+  use_pbc: false
+
+guidance_params:
+  guide_scale: 0.1
+  t_mid: 100
+  t_scale: 150
+  step_num: 750
+
+diffusion_params:
+  sample_params:
+    batch_size: 512
+    ckpt_path: ./checkpoints/aspirin_dsm.ckpt
+    device: cuda
+    save_path: ./sample/aspirin_gss.xyz
