@@ -1,0 +1,52 @@
+{
+  "upload_type": "software",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Qin, Yifang",
+      "affiliation": "School of Computer Science, Peking University, Beijing, China"
+    },
+    {
+      "name": "Shi, Yu",
+      "affiliation": "Zhongguancun Academy, Beijing, China"
+    },
+    {
+      "name": "Tan, Junfu",
+      "affiliation": "School of Electrical and Computer Engineering, Georgia Institute of Technology, Atlanta, GA, USA"
+    },
+    {
+      "name": "Liu, Chang",
+      "affiliation": "Zhongguancun Academy, Beijing, China"
+    },
+    {
+      "name": "Zhang, Ming",
+      "affiliation": "School of Computer Science, Peking University, Beijing, China"
+    },
+    {
+      "name": "Lu, Ziheng",
+      "affiliation": "Zhongguancun Academy, Beijing, China; Kairos Materials, Beijing, China"
+    }
+  ],
+  "title": "GSS-mol: Generative Structure Search for molecular conformers",
+  "description": "<p>Code for the molecular case study of Generative Structure Search (GSS), which applies energy-guided diffusion sampling to the conformational search of aspirin. It accompanies the article \"Generative structure search for efficient and diverse discovery of molecular and crystal structures\". The pretrained aspirin checkpoint is archived at https://doi.org/10.5281/zenodo.19651875. The crystal structure search code is in https://github.com/Yifang-Qin/Generative-Structure-Search.</p>",
+  "keywords": [
+    "conformer search",
+    "diffusion models",
+    "machine-learning force fields",
+    "structure search"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.19651875",
+      "relation": "references",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/Yifang-Qin/Generative-Structure-Search",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}
